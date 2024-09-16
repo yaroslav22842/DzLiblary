@@ -69,22 +69,4 @@ jim.show_orders()
 
 
 
-#class Auto :
-#    def __init__(self, brand, max_passengers):
-#        self.brand = brand
-#        self.passengers = []
-#        self. __max_passengers = max_passengers
-#        self.count_passengers = 0
-#    def add_passenger(self, *args):
-#        for passenger in args:
-#            if self.count_passengers < self.__max_passengers:
-#                self.passengers.append(passenger)
-#                self.count_passengers += 1
-#                print("New passenger added!")
-#            else:
-#                print("Car is full!")
-#    def show_passangers_name(self):
-#        if self.passengers != []:
-#            print(f"Passangers in {self.brand} info:")
-#            for passanger in self.passengers:
-#                passanger.showInfo()
+
